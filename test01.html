@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body { padding: 100px; text-align: center }
+    button { padding: 20px; margin: 0 5px; }
+    </style>
+</head>
+<body>
+    <button id="changeBG">START</button>
+    <button id="stopChange">STOP</button>
+    <script>
+        var flag = false;
+        var startBtn = document.getElementById("changeBG");
+        var stopBtn = document.getElementById("stopChange");
+        var colors = ["blue", "red", "yellow", "orange", "lightblue", "pink"];
+        var colorIndex = 0;
+
+        startBtn.addEventListener("click", start);
+        stopBtn.addEventListener("click", stop);
+        
+        function colorset() {
+            document.bgColor = colors[colorIndex]
+            colorIndex = (colorIndex + 1) % colors.length
+        }
+        function start() {
+            if (flag == true) {
+                return;
+            }
+            flag = true;
+            startBG = setInterval(colorset,1000);
+        }
+        function stop() {
+            clearInterval(startBG);
+            flag = false;
+        }
+
+    </script>
+</body>
+</html>
