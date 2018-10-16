@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <title>Fcebook Login Test</title>
   <script>
+  var checkLoginStatus = function(response) {
+    console.log(response);
+    // statusChangeCallback(response);
+    if(response.status === 'connected'){
+      document.querySelector('#authBtn').value = 'Logout';
+    } else {
+      document.querySelector('#authBtn').value = 'Login';
+    }
+  }
+  
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '1899133360125509',
@@ -24,16 +34,7 @@
     //    your app or not.
     //
     // These three cases are handled in the callback function.
-    var callback = function(response) {
-      console.log(response);
-      // statusChangeCallback(response);
-      if(response.status === 'connected'){
-        document.querySelector('#authBtn').value = 'Logout';
-      } else {
-        document.querySelector('#authBtn').value = 'Login';
-      }
-    }
-    FB.getLoginStatus(callback);
+    FB.getLoginStatus(checkLoginStatus);
 
   };
     
@@ -45,19 +46,24 @@
     js.src = "https://connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-  </script>
-</head>
-<body>
-  <input type="button" id="authBtn" value="checking..." onclick="
+  
+  // 로그인상태 체크 버튼
+  function loginCheck() {
     if(this.value === 'Login'){
       FB.login(function(res){
         console.log('login =>', res)
+        checkLoginStatus(res);
       });
     } else {
       FB.logout(function(res){
         console.log('logout =>', res)
+        checkLoginStatus(res);
       });
     }
-  ">
+  };
+  </script>
+</head>
+<body>
+  <input type="button" id="authBtn" value="checking..." onclick="loginCheck();">
 </body>
 </html>
