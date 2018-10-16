@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Custom Login</title>
+  <script>
+    function init(){
+      console.log('init');
+      gapi.load('auth2', function() {
+        console.log('auth2');
+        var gauth = gapi.auth2.init({
+          client_id: '272419334389-j10ri0u9b2aufdluut0413redm068mn7.apps.googleusercontent.com'
+        })
+      });
+      gauth.then(function(){
+        console.log('googleAuth Success');
+      }, function(){
+        console.log('googleAuth fail');
+      });
+    }
+  </script>
+</head>
+<body>
+  
+<script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+</body>
+</html>
