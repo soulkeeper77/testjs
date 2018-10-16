@@ -9,11 +9,11 @@
     if(response.status === 'connected'){
       document.querySelector('#authBtn').value = 'Logout';
       FB.api('/me', function(resp){
-        document.querySelector('#id').innerHTML = ' welcome '+resp.name;
+        document.querySelector('#name').innerHTML = ' welcome '+resp.name;
       });
     } else {
       document.querySelector('#authBtn').value = 'Login';
-      document.querySelector('#id').innerHTML = '';
+      document.querySelector('#name').innerHTML = '';
     }
   }
   
