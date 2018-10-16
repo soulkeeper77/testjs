@@ -32,7 +32,7 @@
     
     function loginCheck() {
       if(document.querySelector('#loginBtn').value === 'Login'){
-        gauth.signIn().then(funtion(){
+        gauth.signIn().then(function(){
           checkLoginStatus();
         });
       } else {
