@@ -48,7 +48,7 @@
   
   // 로그인상태 체크 버튼
   function loginCheck() {
-    if(this.value === 'Login'){
+    if(document.getElementById('authBtn').value === 'Login'){
       FB.login(function(res){
         console.log('login =>', res);
         checkLoginStatus(res);
