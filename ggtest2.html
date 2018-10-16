@@ -14,7 +14,7 @@
         gauth.then(function(){
           console.log('googleAuth Success');
           var loginBtn = document.querySelector('#loginBtn');
-          if(gAuth.isSignedIn.get()){
+          if(gauth.isSignedIn.get()){
             console.log('logined');
             loginBtn.value = 'Logout';
           } else {
