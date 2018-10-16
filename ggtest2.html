@@ -13,10 +13,13 @@
         })
         gauth.then(function(){
           console.log('googleAuth Success');
+          var loginBtn = document.querySelector('#loginBtn');
           if(gAuth.isSignedIn.get()){
             console.log('logined');
+            loginBtn.value = 'Logout';
           } else {
             consle.log('logouted');
+            loginBtn.value = 'Login';
           }
         }, function(){
           console.log('googleAuth fail');
@@ -26,7 +29,7 @@
   </script>
 </head>
 <body>
-  
-<script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
+  <input type="button" id="loginBtn" value="checking...">
+  <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </body>
 </html>
