@@ -29,19 +29,21 @@
         });
       });
     }
+    
+    function loginCheck() {
+      if(document.querySelector('#loginBtn').value === 'Login'){
+        gauth.signIn().then(funtion(){
+          checkLoginStatus();
+        });
+      } else {
+        gauth.signOut();
+        checkLoginStatus();
+      }
+    }
   </script>
 </head>
 <body>
-  <input type="button" id="loginBtn" value="checking..." onclick="
-    if(this.value === 'Login'){
-      gauth.signIn().then(funtion(){
-        checkLoginStatus();
-      });
-    } else {
-      gauth.signOut();
-      checkLoginStatus();
-    }
-  ">
+  <input type="button" id="loginBtn" value="checking..." onclick="loginCheck();">
   <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </body>
 </html>
