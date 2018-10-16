@@ -36,8 +36,9 @@
           checkLoginStatus();
         });
       } else {
-        gauth.signOut();
-        checkLoginStatus();
+        gauth.signOut().then(function(){
+          checkLoginStatus();
+        });
       }
     }
   </script>
