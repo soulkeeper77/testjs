@@ -35,8 +35,7 @@
   <input type="button" id="loginBtn" value="checking..." onclick="
     if(this.value === 'Login'){
       gauth.signIn().then(funtion(){
-        console.log('gauth.signIn()');
-        chekLoginStatus();
+        checkLoginStatus();
       });
     } else {
       gauth.signOut();
