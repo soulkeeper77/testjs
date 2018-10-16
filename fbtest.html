@@ -6,7 +6,6 @@
   <script>
   var checkLoginStatus = function(response) {
     console.log(response);
-    // statusChangeCallback(response);
     if(response.status === 'connected'){
       document.querySelector('#authBtn').value = 'Logout';
     } else {
@@ -51,12 +50,12 @@
   function loginCheck() {
     if(this.value === 'Login'){
       FB.login(function(res){
-        console.log('login =>', res)
+        console.log('login =>', res);
         checkLoginStatus(res);
       });
     } else {
       FB.logout(function(res){
-        console.log('logout =>', res)
+        console.log('logout =>', res);
         checkLoginStatus(res);
       });
     }
