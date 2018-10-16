@@ -8,8 +8,12 @@
     console.log(response);
     if(response.status === 'connected'){
       document.querySelector('#authBtn').value = 'Logout';
+      FB.api('/me', function(resp){
+        document.querySelector('#id').innerHTML = ' welcome '+resp.name;
+      });
     } else {
       document.querySelector('#authBtn').value = 'Login';
+      document.querySelector('#id').innerHTML = '';
     }
   }
   
@@ -64,5 +68,6 @@
 </head>
 <body>
   <input type="button" id="authBtn" value="checking..." onclick="loginCheck();">
+  <span id="name"></span>
 </body>
 </html>
