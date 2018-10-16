@@ -11,11 +11,11 @@
         var gauth = gapi.auth2.init({
           client_id: '272419334389-j10ri0u9b2aufdluut0413redm068mn7.apps.googleusercontent.com'
         })
-      });
-      gauth.then(function(){
-        console.log('googleAuth Success');
-      }, function(){
-        console.log('googleAuth fail');
+        gauth.then(function(){
+          console.log('googleAuth Success');
+        }, function(){
+          console.log('googleAuth fail');
+        });
       });
     }
   </script>
