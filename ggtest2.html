@@ -6,12 +6,16 @@
   <script>
     function checkLoginStatus() {
       var loginBtn = document.querySelector('#loginBtn');
+      var nameTxt = document.querySelector('#name');
       if(gauth.isSignedIn.get()){
         console.log('logined');
         loginBtn.value = 'Logout';
+        var profile = gauth.currentUser.get().getBasicProfile();
+        nameTxt.innerHTML = 'Welcome <strong>'+profile.getName()+'</strong> ';
       } else {
         console.log('logouted');
         loginBtn.value = 'Login';
+        nameTxt.innerHTML = '';
       }
     }
     function init(){
@@ -44,6 +48,7 @@
   </script>
 </head>
 <body>
+  <span id="name"></span>
   <input type="button" id="loginBtn" value="checking..." onclick="loginCheck();">
   <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 </body>
