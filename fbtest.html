@@ -27,6 +27,11 @@
     var callback = function(response) {
       console.log(response);
       // statusChangeCallback(response);
+      if(response.status === 'connected'){
+        document.querySelector('#authBtn').value = 'Logout';
+      } else {
+        document.querySelector('#authBtn').value = 'Login';
+      }
     }
     FB.getLoginStatus(callback);
 
@@ -43,6 +48,6 @@
   </script>
 </head>
 <body>
-
+  <input type="button" id="authBtn" value="checking...">
 </body>
 </html>
