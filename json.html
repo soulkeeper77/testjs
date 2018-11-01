@@ -7,7 +7,9 @@
             $(document).ready(function() {
                 $.getJSON( "./2017-12-28.json", function( data ) {
                     $("#guser").html(data);
-					console.log(data.user[5]);
+					$each(data, function(I, item){
+						console.log(item.name);
+					});
                 });
 
             });
