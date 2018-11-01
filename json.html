@@ -8,7 +8,7 @@
                 $.getJSON( "./2017-12-28.json", function( data ) {
                     $("#guser").html(data);
 					$.each(data, function(I, item){
-						console.log(item.user);
+						$("#guser").html(item.user);
 					});
                 });
 
