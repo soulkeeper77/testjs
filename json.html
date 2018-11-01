@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.getJSON( "./2017-12-28.json", function( data ) {
+                    $("#guser").html(data["user"]);
+                });
+            });
+        </script>
+    </head>
+ 
+    <body>
+        <h2 id="guser"></h2>
+    </body>
+</html>

@@ -1,0 +1,253 @@
+[
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "최신버전에서 back_.GameInfo.getChart 호출시 ArgumentNullException 예외가 발생합니다",
+        "ts": "1514452612.000136"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "해당 부분은 로그인호출시 실패되서 발생되었던거네요. 저장된 데이터 다 날리고 재가입-&gt;재실행시 문제없이 호출됩니다.",
+        "ts": "1514452803.000120"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "getchart호출시 차트 이름 목록은 나오는 상황인데,\n 그 이후에 playerprefs에 저장이 안되는 상황",
+        "ts": "1514452883.000141"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "이 이슈 재반복되는것같습니다.",
+        "ts": "1514452910.000264"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "랭킹을 추가하려고 하는데 해당 컬럼값을 아래 사진과 같이 추가할수없는데 제가 놓친게 있나 문의드립니다.",
+        "ts": "1514509763.000129"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F8L9YB4MT",
+                "created": 1514509774,
+                "timestamp": 1514509774,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U8AS92MKM",
+                "editable": false,
+                "size": 31477,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T8ARSD5L3-F8L9YB4MT\/image.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ARSD5L3-F8L9YB4MT\/download\/image.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_64.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_80.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_360.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 320,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_480.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 427,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_160.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8L9YB4MT-9ed1faecb2\/image_720.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 641,
+                "image_exif_rotation": 1,
+                "original_w": 725,
+                "original_h": 645,
+                "permalink": "https:\/\/thebackend-team.slack.com\/files\/U8AS92MKM\/F8L9YB4MT\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T8ARSD5L3-F8L9YB4MT-c204702519"
+            }
+        ],
+        "upload": true,
+        "user": "U8AS92MKM",
+        "display_as_bot": false,
+        "ts": "1514509777.000023"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F8KFRJZT2",
+                "created": 1514509778,
+                "timestamp": 1514509778,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U8AS92MKM",
+                "editable": false,
+                "size": 20902,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T8ARSD5L3-F8KFRJZT2\/image.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T8ARSD5L3-F8KFRJZT2\/download\/image.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8KFRJZT2-0fd0861531\/image_64.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8KFRJZT2-0fd0861531\/image_80.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8KFRJZT2-0fd0861531\/image_360.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 198,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8KFRJZT2-0fd0861531\/image_480.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 264,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T8ARSD5L3-F8KFRJZT2-0fd0861531\/image_160.png?t=xoxe-282876447683-470436508407-468779289953-bbb92e290417e36ed8d3d237638ea41e",
+                "image_exif_rotation": 1,
+                "original_w": 601,
+                "original_h": 331,
+                "permalink": "https:\/\/thebackend-team.slack.com\/files\/U8AS92MKM\/F8KFRJZT2\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T8ARSD5L3-F8KFRJZT2-cdba2ce186"
+            }
+        ],
+        "upload": true,
+        "user": "U8AS92MKM",
+        "display_as_bot": false,
+        "ts": "1514509780.000033"
+    },
+    {
+        "type": "message",
+        "user": "U8B42790V",
+        "text": "저희가 우선 랭킹은 데이터 유형이 숫자(number)인 컬럼에 대해서만 랭킹을 생성하게 해두었습니다.\n첫번째 사진에서 두번째 칸의 값이 선택하세요만 나오는 것은 user_info table에서 숫자(number)로 된 칼럼이 없기떄문입니다.",
+        "ts": "1514509916.000062"
+    },
+    {
+        "type": "message",
+        "user": "U8B42790V",
+        "text": "숫자로된 칼럼이 있다면 바로 보일 것입니다.",
+        "ts": "1514509933.000070"
+    },
+    {
+        "type": "message",
+        "user": "U8B42790V",
+        "text": "현재 확인결과 해당 칼럼들의 칼럼 값들은 string입니다.\nsdk 사용시 string이 아닌 숫자로 값을 넣어주시면 이용 가능하실 것입니다.",
+        "ts": "1514510168.000019"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "아아 =ㅅ=",
+        "ts": "1514510192.000086"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "아마 초기 테이블 생성시 string 으로 컬럼 생성해줘서 그랬었나보네요.",
+        "ts": "1514510227.000036"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "그 이후로 초기화 로직에서 insert해줄때 파라미터 안맞다고 해서 인트형을 지원안하는구나 싶었거든요.",
+        "ts": "1514510255.000054"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "근데 back_.GameInfo.update에서 integer로 업데이트가 잘되길래 =ㅅ=.",
+        "ts": "1514510280.000113"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "기존의 데이터들 모두 날리고 숫자로 넣어줬는데 파라미터 타입 이슈가 있는데 테이블까지 날리고 새로만들어야할까요?",
+        "ts": "1514510320.000035"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "랭킹은 테이블의 필드(컬럼) 별로 string, number를 사용 합니다. 컬럼에 첫 값이 등록될 때 자료형이 결정 됩니다 (변경 불가능)",
+        "ts": "1514510405.000080"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "자료형을 변경하는 방법은 1. 컬럼이름을 변경해서 사용 2. 새로운 테이블 생성 이 있습니다",
+        "ts": "1514510431.000026"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "3. 해당 컬럼이 존재하는 모든 row를 delete",
+        "ts": "1514510444.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "한 후 다시 컬럼 insert",
+        "ts": "1514510461.000021"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "3번 시도했었는데 안되서",
+        "ts": "1514510535.000061"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "2번 테이블 삭제후 같은 이름으로 재생성했는데 똑같이 실패하네요",
+        "ts": "1514510548.000057"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "1. Number형 insert 실패  \/ 2. insert 후 랭킹 출력 실패 (뒤끝 웹사이트)",
+        "ts": "1514510765.000039"
+    },
+    {
+        "type": "message",
+        "user": "U8AD0SMEV",
+        "text": "어느쪽 이슈인가요 ??",
+        "ts": "1514510769.000037"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "1번 이슈입니다.",
+        "ts": "1514531751.000051"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "테이블 삭제후 재생성, 다시 insert시 \n\"statusCode : 400\\nerrorCode : ValidationException\\nmessage : One or more parameter values were invalid: An AttributeValue may not contain an empty string\\n\"",
+        "ts": "1514531761.000114"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "아아 =ㅅ= 이게 테이블 삭제하고 같은 이름으로 재생성해줘서 인식못했는데",
+        "ts": "1514531995.000145"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "콘솔상에서 테이블 삭제도 안되고 생성도 안되네요. (예. A 테이블 삭제후 B테이블 생성 후 사이트 새로고침시 B없고 A만 그대로 존재 )",
+        "ts": "1514532035.000031"
+    },
+    {
+        "type": "message",
+        "user": "U8AS92MKM",
+        "text": "세션이슈인가해서 로그아웃하고 재접속해서 시도했는데 같은이슈발생됩니다.",
+        "ts": "1514532051.000078"
+    }
+]
